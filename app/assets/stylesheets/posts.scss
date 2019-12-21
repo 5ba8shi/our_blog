@@ -27,15 +27,17 @@ body{
     }
   }
   .contents{
-    margin: 30px auto 0;
-    background-color: #fff;
+    margin: 0px auto 0;
+    background-image: url('/assets/images/snow.jpg');
     height: 600px;
-    width: 70%;
     overflow: scroll;
     .content{
       padding: 10px;
       border-bottom: 1px solid #f6f6f6;
       display: flex;
+      max-width: 70%;
+      margin-right: auto;
+      margin-left : auto;
       &__left{
         padding-right: 20px;
         &--image{
