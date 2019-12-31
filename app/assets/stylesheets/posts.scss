@@ -29,7 +29,8 @@ body{
   .contents{
     margin: 0px auto 0;
     background-image: url('/assets/images/snow.jpg');
-    height: 600px;
+    background-size: cover;
+    height: 100vh;
     overflow: scroll;
     .content{
       padding: 10px;
